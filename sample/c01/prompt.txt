@@ -1,0 +1,21 @@
+subject_definitions:
+<Subject 1> is the young woman sitting at the table in the center of the first frame: black short bob hair, dark brown eyes, a white collared blouse and a navy cardigan, a white coffee cup on the table in front of her. Her voice is a bright, warm, clear young female Japanese voice.
+<Audio 1> is the fixed dialogue track of this cut (lip-sync). Only <Subject 1> speaks in this cut.
+
+summary:
+An anime-style cel-shaded scene in a cozy cafe by a large window at sunset. The whole video is one single continuous shot from the same camera position as the first frame. <Subject 1> looks into the camera, smiles and greets the viewer in Japanese, then gives a small nod. A calm, friendly moment.
+
+retention_analysis:
+First frame: fully_preserved - the cafe interior, the warm pendant lamps, the hanging plants on the left, the wooden tables and chairs, the large window on the right with the street and trees in the sunset light, the coffee cup on the table, and <Subject 1>'s face, hair and clothes. The background stays exactly as in the first frame from start to end.
+
+detailed_description:
+[Shot 1]: The shot opens exactly on the first frame. <Subject 1> sits facing the camera with a soft smile, lips closed.
+[Shot 1] at 00:00.50: <Subject 1> (S1) says, brightly and with a smile: <d>[Japanese] こんにちは！これは、コラボで作った動画です。</d> Only the mouth of <Subject 1> moves. She tilts her head slightly to one side as she says hello, and keeps looking into the camera.
+[Shot 1] after the last line: <Subject 1> keeps her lips closed, gives a small nod with a warm smile and holds still. Behind the window, leaves move gently in the breeze.
+Camera: medium close-up from the front at seated eye height. The camera stays fixed for the whole cut, one continuous take without any cut or change of angle.
+
+overall_soundscape:
+A quiet cafe room tone. Only <Subject 1> speaks, using the voice in <Audio 1>. Apart from that line, nobody speaks. No background music.
+
+non_diegetic_music:
+N/A

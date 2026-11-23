@@ -1,0 +1,16 @@
+{
+ "tool": "name_gate_v01",
+ "file": "colab-minimax-h3/sample/c01/start.png",
+ "size": 2828095,
+ "mtime_ns": 1795410128658203900,
+ "every": 0.5,
+ "checked": "2026-11-23T14:03:46",
+ "words_set": true,
+ "words": 4,
+ "frames": 1,
+ "read_frames": 1,
+ "hits": [],
+ "part_reads": 0,
+ "seconds": 0.6,
+ "result": "PASS"
+}
