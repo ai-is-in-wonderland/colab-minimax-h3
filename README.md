@@ -5,7 +5,7 @@ The notebook and files used in the YouTube video by **AI is in Wonderland**: run
 ## Files
 | file | what it is |
 |---|---|
-| `colab_minimax_h3_v14.ipynb` | the notebook (cells 0-6, 9). Run the cells one by one from the top. |
+| `colab_minimax_h3_v15.ipynb` | the notebook (cells 0-6, 9). Run the cells one by one from the top. |
 | `workflows/h3_t2v_minimal_864x480.json` | small test: text only, 5 s, 864x480, 4 steps |
 | `workflows/h3_i2v_lipsync_1536x864.json` | first frame + voice (lip-sync), 1536x864, 4 steps |
 | `h3_job_patch.py` | turns a cut folder (start.png, voice.wav, prompt.txt) into a workflow |
