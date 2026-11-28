@@ -10,6 +10,7 @@ The notebook and files used in the YouTube video by **AI is in Wonderland**: run
 | `workflows/h3_i2v_lipsync_1536x864.json` | first frame + voice (lip-sync), 1536x864, 4 steps |
 | `h3_job_patch.py` | turns a cut folder (start.png, voice.wav, prompt.txt) into a workflow |
 | `sample/c01/` | one sample cut (an original character made for this sample) |
+| `auto_cell.py` | the all-in-one cell: paste it into one Colab cell and press ▶ once. It sets up, makes every cut, saves each video to Drive and stops the runtime by itself. |
 
 ## Use
 1. Colab: Runtime → Change runtime type → **G4** (or A100). T4 / L4 do not have enough memory.
@@ -17,6 +18,14 @@ The notebook and files used in the YouTube video by **AI is in Wonderland**: run
 3. In ComfyUI run `test_t2v_5s` once. Then run cell 6, reload the ComfyUI page (F5), open `sample_c01` and run it.
 4. Your own cuts: put `start.png`, `voice.wav`, `prompt.txt` into `MyDrive/AI_Colab/H3/inputs/<your set>/<cut>/` and change `SET` in cell 6.
 5. **Always stop the runtime** with the last cell (Colab compute units are used while connected).
+
+## All-in-one cell (`auto_cell.py`)
+Once you know the steps above, you can do everything with one cell:
+1. Put your cut folders in `MyDrive/AI_Colab/H3/inputs/<your set>/c01, c02, ...` (each with `start.png`, `voice.wav`, `prompt.txt`).
+2. Colab: Runtime → Change runtime type → **G4** (or A100).
+3. Paste `auto_cell.py` into one cell, change `SET = 'sample'` to your set's folder name, press ▶ and allow Google Drive.
+4. It installs ComfyUI and PyTorch, downloads the 4 models, makes every cut one by one and saves each to `MyDrive/AI_Colab/H3/output/<date_time>_auto/`. Progress is written to `_STATUS.txt` there.
+5. When everything is done (or after `MAX_MIN` = 90 minutes, or on an error) it **stops the runtime by itself**. If it stopped half-way, run it again: finished cuts are skipped.
 
 ## Notes
 - H3 **video** only. Check the MiniMax H3 licence terms yourself before you use it.
